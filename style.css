@@ -1,0 +1,29 @@
+.title{
+    color: rgb(88, 174, 177);  
+    font-weight: bolder; 
+    padding-top: 25px; 
+}
+.box {
+    margin-top: 60px; 
+    margin-bottom: 62px; 
+    padding: 10px 20px 15px; 
+    background-color: white; 
+
+  }
+
+  .panel {
+    border-style: solid;
+    color: aliceblue
+  }
+
+  img{
+    width:100% !important;
+    height:100% !important;
+}
+.navbar-brand{
+    background-color: rgb(88, 174, 177);
+}
+
+.navbar-light .navbar-brand{
+    color: #ffffff
+}
