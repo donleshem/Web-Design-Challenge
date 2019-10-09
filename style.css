@@ -4,10 +4,11 @@
     padding-top: 25px;
     font-family: 'Times New Roman', Times, serif; 
 }
-.box {
-    margin-top: 50px; 
-    margin-bottom: 70px; 
+  .box {
+    margin-top: 60px; 
+    margin-bottom: 60px; 
     padding: 10px 20px 15px; 
+    color:black;
     background-color: white; 
 
   }
@@ -22,11 +23,48 @@
     height:100% !important;
 }
 .navbar-brand{
-    background-color: rgb(88, 174, 177);
+    background-color: rgb(88, 174, 177)
 }
 
 .navbar-light .navbar-brand{
     color: #ffffff;
     font-family: 'Times New Roman', Times, serif;
 }
+.active, .panel:hover{
+  border-color:rgb(88, 174, 177);
+  border-style: solid; 
+  
+}
+.nav-link:hover{
+  background-color:rgb(214, 227, 228) !important;
+ }
+ .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+  background-color:rgb(214, 227, 228) !important; 
+}
 
+@media(max-width: 992px){
+  .navbar-expand-lg{
+  background-color: rgb(88, 174, 177) !important;
+  }
+  .navbar{
+      max-height: none; 
+      padding: inherit;
+  }
+  .navbar div{
+      margin: inherit; 
+      background-color: white;  
+  }
+  .navbar-brand{
+      padding: 10px !important; 
+  }
+  
+  button{
+      margin-right: 30px; 
+  }
+  button:focus {
+  
+      outline: 1px dotted;
+      outline: 5px auto -webkit-focusring-color;
+      
+      }
+  }
