@@ -44,7 +44,7 @@
 
 @media(max-width: 992px){
   .navbar-expand-lg{
-  background-color: rgb(88, 174, 177) !important;
+  background-color: #ffff !important;
   }
   .navbar{
       max-height: none; 
