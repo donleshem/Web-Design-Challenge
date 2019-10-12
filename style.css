@@ -23,7 +23,12 @@
     height:100% !important;
 }
 .navbar-brand{
-    background-color: rgb(88, 174, 177)
+    background-color: rgb(88, 174, 177);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
 }
 
 .navbar-light .navbar-brand{
